@@ -1,0 +1,194 @@
+  /* <ul class="box indent">
+        <li><a href="https://www.linkedin.com/in/swuamysantos/">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/swamy.santos?igsh=amVjY2wxOTFlM2p3">Instagram</a></li>
+    </ul>
+
+
+
+
+
+    
+
+
+
+main {
+  margin: 0 auto; 
+}
+
+
+header, footer {
+      margin: 0 auto;
+    }
+
+nav {
+    background-color: rgb(170, 104, 0.993);
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border: 3px solid rgb(170, 104, 0.993);
+}
+
+nav img {
+    width: 200px;       
+    height: auto;         
+    filter: drop-shadow(0 8px 10px rgb(5, 29, 1));
+    
+}
+
+nav .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+nav .nav-links a {
+    color: rgb(12, 71, 35);
+    font-family: 'Cinzel', serif;
+    font-weight: 800; 
+    text-transform: uppercase; 
+    text-justify: center;
+    letter-spacing: 0px;    
+    font-size: 40px;
+    text-decoration-color: 0 0 30px gray;
+    text-shadow: 1px 1px 2px #000000; 
+}
+
+nav .nav-links {
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    white-space: nowrap; 
+}
+
+
+
+nav a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    justify-content: center; 
+    align-items: center;    
+    padding: 5px;
+    line-height: 2.5;
+    font-family: 'Cinzel', serif;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;    
+    font-size: 20px;
+    text-decoration-color: 0 0 30px gray;
+    text-shadow: 1px 1px 1px #75500a;
+}
+
+
+
+h1 {
+    color: rgb(170, 104, 0.993);
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;    
+    font-size: 35px;
+    text-decoration-color: 0 0 30px gray;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  h2 {
+    color: rgb(170, 104, 0.993);
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;    
+    font-size: 35px;
+    text-decoration-color: gray;
+    text-shadow: 2px 2px 4px #000000;
+    border-top: 2px solid rgb(170, 104, 0.993); 
+    margin-top: 20px;  
+    padding-top: 1px; 
+  }
+
+
+  /* images v */
+main .right {
+  width: 400px;
+  height: 300px;
+  float: right;
+  border: 0px solid rgba(0, 0, 0, 0);
+  padding: 1px;
+  margin: 0px 20px;  
+  float: none;   
+  object-fit: cover;
+}
+main .center {
+  width: 400px;           
+  height: 300px;          
+  display: block;         
+  margin: 20px auto;     
+  border: 0;           
+  padding: 0;       
+  float: none;           
+}
+/* images ^  */
+
+
+
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;              
+  margin: 0 auto;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  gap: 10px;
+  align-items: start;
+}
+
+.section p {
+  margin: 0;
+}
+
+
+.box {
+  margin: 40px;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: rgb(170, 104, 0.993);
+  color: rgb(0, 0, 0);
+  list-style-position: inside; 
+  padding-left: 0;            
+}
+
+.indent {
+  margin-left: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 2rem;
+}
+
+
+header, footer {
+    margin: 0 auto;
+    }
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid rgb(170, 104, 0.993);
+  text-align: center;
+  color: rgb(170, 104, 0.993);
+}
