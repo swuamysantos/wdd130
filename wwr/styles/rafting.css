@@ -114,6 +114,7 @@ body {
 .history {
     background-color: rgb(170, 104, 0.993);
     padding: 2rem;
+    text-shadow: 1px 1px 2px #000;
     position: relative; 
 }
 
@@ -143,9 +144,9 @@ body {
     font-weight: 900; 
     font-size: 35px;
     text-decoration-color: 0 0 30px gray;
-    text-shadow: 1px 1px 2px #866702;
+    text-shadow: 1px 1px 2px #0f3002;
     padding: 1rem;
-    color: rgb(12, 71, 35);
+    color: rgb(8, 54, 26);
 
 }
 
@@ -160,10 +161,16 @@ body {
     font-family: 'Cinzel', serif;
     font-weight: 1000; 
     text-decoration-color: 0 0 20px gray;
-    text-shadow: 1px 1px 1px #866702;
+    text-shadow: 1px 1px 1px #072e01;
+    color: rgb(12, 71, 35);
     text-align: justify;
     line-height: 1.4;
 }
+
+.history-content p {
+    color: rgb(12, 71, 35) !important;
+}
+
 
 .history-img {
   width: 300px;
